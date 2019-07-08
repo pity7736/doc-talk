@@ -15,12 +15,14 @@ class Class1Package1:
 
         Examples:
 
+        .. code-block:: python
+
             obj = Class1Package1()
             obj.do_something('hello', 1)
 
         Args:
-            arg1: any string
-            arg2: any integer
+            arg1 (str): any string
+            arg2 (int): any integer
 
         Returns:
             str: a string with self, arg1 and arg2 concatenated

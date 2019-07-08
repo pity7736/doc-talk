@@ -1,30 +1,18 @@
-doc\_talk.package1 package
-==========================
+package1
+========
 
-Submodules
-----------
-
-doc\_talk.package1.class1 module
---------------------------------
+Class1
+------
 
 .. automodule:: doc_talk.package1.class1
    :members:
    :undoc-members:
    :show-inheritance:
 
-doc\_talk.package1.class2 module
---------------------------------
+Class2
+------
 
 .. automodule:: doc_talk.package1.class2
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: doc_talk.package1
    :members:
    :undoc-members:
    :show-inheritance:

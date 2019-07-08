@@ -10,19 +10,19 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-sys.path.insert(0, os.path.abspath('..'))
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'doc_talk'
-copyright = '2019, Julián Cortés'
-author = 'Julián Cortés'
+project = 'mesfix'
+copyright = '2019, R5'
+author = 'R5'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = 'v1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -31,9 +31,6 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon'
 ]
 
 # Add any paths that contain templates here, relative to this directory.

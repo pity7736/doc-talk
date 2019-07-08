@@ -4,7 +4,7 @@ from .class1 import Class1Package1
 class Class2Package1:
     """Class2Package1
 
-    This class collaborate with Class1Package1.
+    This class collaborate with :class:`doc_talk.package1.class1.Class1Package1`.
     """
 
     def __init__(self, obj: Class1Package1):
@@ -15,6 +15,8 @@ class Class2Package1:
         This method do something
 
         Examples:
+
+        .. code-block:: python
 
             obj1 = Class1Package1()
             obj = Class2Package1(obj1)
